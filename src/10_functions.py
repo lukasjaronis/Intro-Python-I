@@ -10,3 +10,10 @@ num = int(num)
 
 # YOUR CODE HERE
 
+def eofunction(number): 
+    if (number % 2) == 0:
+        print(f"Even! {number}")
+    else: 
+        print(f"Odd! {number}")
+
+eofunction(num)

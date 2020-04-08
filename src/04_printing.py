@@ -15,3 +15,14 @@ z = "I like turtles!"
 # Use the 'format' string method to print the same thing
 
 # Finally, print the same thing using an f-string
+
+print("1 print-f")
+print(f"x is {x}, y is {y}, z is {z} \n")
+print("2 %")
+data = (x, y, z)
+format_string = "x is %s, y is %s, z is %s"
+print(f"{format_string % data} \n")
+# or
+print("x is %s, y is %s, z is %s" % (x, y, z))
+print("3")
+print("x is {0}, y is {1}, z is {2}".format(x, y, z))
